@@ -1,0 +1,36 @@
+{
+    "target": "scanme.nmap.org",
+    "timestamp": "Wed Jan 14 15:20:55 2026",
+    "vulnerabilities": [
+        {
+            "type": "Open Port",
+            "detail": "Port 22 Open",
+            "mitre_id": "T1046",
+            "severity": "Medium"
+        },
+        {
+            "type": "Open Port",
+            "detail": "Port 80 Open",
+            "mitre_id": "T1046",
+            "severity": "Medium"
+        },
+        {
+            "type": "Missing Header",
+            "detail": "Missing X-Frame-Options",
+            "mitre_id": "T1190",
+            "severity": "Low"
+        },
+        {
+            "type": "Missing Header",
+            "detail": "Missing X-Content-Type-Options",
+            "mitre_id": "T1190",
+            "severity": "Low"
+        },
+        {
+            "type": "Missing Header",
+            "detail": "Missing Content-Security-Policy",
+            "mitre_id": "T1190",
+            "severity": "Low"
+        }
+    ]
+}
